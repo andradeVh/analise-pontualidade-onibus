@@ -1,1 +1,2 @@
-analise-pontualidade-onibus
+horaOnibus <- c(30,34,27,28,27,33,22,30,34,33,32,21,20,32,34,22,17,5,25)
+horaOnibus
