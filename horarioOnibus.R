@@ -21,9 +21,6 @@ mediana
 moda <- names(which.max(table(horaOnibus)))
 moda
 
-<<<<<<< HEAD
-hist(horaOnibus)
-=======
 hist(horaOnibus, 
      xlim = c(0, 40), 
      breaks = seq(0, 40, by = 5),
@@ -38,5 +35,4 @@ curve(dnorm(x, mean = media, sd = desvio_p),
       add = TRUE,
       col = "red",
       lwd = 2)
->>>>>>> afb569a9925f2dd036ffe52f44d2205f72933e3b
 
