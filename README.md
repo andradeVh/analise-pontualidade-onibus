@@ -6,7 +6,7 @@ Este repositório contém um script em linguagem R desenvolvido para realizar a 
 
 ![Histograma de Pontualidade dos Ônibus](./histograma.png)
 
-## Principais Resultados ($n = 40$)
+## Principais Resultados n = 40
 
 Com a consolidação de 40 dias de coleta real (minutos após as 22h), os dados confirmaram a tendência à Distribuição Normal (Teorema Central do Limite):
 
