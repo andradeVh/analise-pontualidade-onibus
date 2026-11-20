@@ -4,7 +4,7 @@ Este repositório contém um script em linguagem R desenvolvido para realizar a 
 
 ## Histograma
 
-(histograma.png)
+![Histograma de Pontualidade dos Ônibus](./histograma.png)
 
 ## Descrição do Script
 
