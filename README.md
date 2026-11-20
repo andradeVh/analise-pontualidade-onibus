@@ -40,7 +40,3 @@ O script executa as seguintes etapas metodológicas:
 ## Requisitos de Execução
 
 Para executar este script, é necessário ter o ambiente **R** instalado em sua máquina. O código utiliza apenas funções nativas do R base, não exigindo a instalação de pacotes externos.
-
-## Como Utilizar
-
-Copie o código fornecido, abra sua interface do R ou RStudio, cole-o no console ou em um script (`script.R`) e execute-o para obter os valores estatísticos calculados e a plotagem gráfica correspondente.
