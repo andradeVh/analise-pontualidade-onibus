@@ -1,6 +1,10 @@
 # Análise Estatística de Tempos de Espera de Ônibus
 
-Este repositório contém um script em linguagem R desenvolvido para realizar a análise estatística descritiva e a representação gráfica de uma amostra de tempos de espera de ônibus (em minutos).
+Este repositório contém um script em linguagem R desenvolvido para realizar a análise estatística descritiva e a representação gráfica de uma amostra de tempos de espera de ônibus (em minutos). O ônibus em questão é o que utilizo algumas vezes para voltar da faculdade, mas o horário é incostante podendo passar das 22:11 até 22:34.
+
+## Histograma
+
+(histograma.png)
 
 ## Descrição do Script
 
