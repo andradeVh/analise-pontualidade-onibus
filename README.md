@@ -18,6 +18,14 @@ Com a consolidação de 40 dias de coleta real (minutos após as 22h), os dados 
 | **Desvio Padrão** | `5,47 min` | Variabilidade média em torno das 22:25 |
 | **Amplitude** | `11 a 34 min` | Janela observada entre 22:11 e 22:34 |
 
+## Localização
+
+Ponto de ônibus frente ao IFSC
+
+![Imagem do Google Maps mostrando a localização](./localizacao.png)
+
+
+
 ### Conclusão Prática
 A análise demonstra que a probabilidade de o ônibus passar antes das **22:10** é estatisticamente desprezível. Com média e mediana convergindo exatamente em **25 minutos**, chegar ao ponto por volta das **22:18** oferece uma margem de segurança confortável frente ao desvio padrão de ~5,5 minutos, minimizando o risco de perda do transporte sem gerar espera excessiva.
 
