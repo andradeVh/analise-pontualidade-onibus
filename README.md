@@ -6,6 +6,21 @@ Este repositório contém um script em linguagem R desenvolvido para realizar a 
 
 ![Histograma de Pontualidade dos Ônibus](./histograma.png)
 
+## Principais Resultados ($n = 40$)
+
+Com a consolidação de 40 dias de coleta real (minutos após as 22h), os dados confirmaram a tendência à Distribuição Normal (Teorema Central do Limite):
+
+| Métrica | Valor | Interpretação |
+| :--- | :---: | :--- |
+| **Média** | `25,05 min` | Horário médio de passagem: ~22:25 |
+| **Mediana** | `25,00 min` | 50% das viagens ocorrem até as 22:25 |
+| **Moda** | `22,00 min` | Horário de maior frequência individual |
+| **Desvio Padrão** | `5,47 min` | Variabilidade média em torno das 22:25 |
+| **Amplitude** | `11 a 34 min` | Janela observada entre 22:11 e 22:34 |
+
+### Conclusão Prática
+A análise demonstra que a probabilidade de o ônibus passar antes das **22:10** é estatisticamente desprezível. Com média e mediana convergindo exatamente em **25 minutos**, chegar ao ponto por volta das **22:18** oferece uma margem de segurança confortável frente ao desvio padrão de ~5,5 minutos, minimizando o risco de perda do transporte sem gerar espera excessiva.
+
 ## Descrição do Script
 
 O script executa as seguintes etapas metodológicas:
@@ -28,4 +43,4 @@ Para executar este script, é necessário ter o ambiente **R** instalado em sua 
 
 ## Como Utilizar
 
-Copie o código fornecido, abra sua interface do R ou RStudio, cole-o no console ou em um script (`.script.R`) e execute-o para obter os valores estatísticos calculados e a plotagem gráfica correspondente.
+Copie o código fornecido, abra sua interface do R ou RStudio, cole-o no console ou em um script (`script.R`) e execute-o para obter os valores estatísticos calculados e a plotagem gráfica correspondente.
